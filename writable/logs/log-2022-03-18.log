@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-18 04:23:05 --> Undefined variable: menu
+#0 C:\xampp\htdocs\UkomKasir\app\Views\log\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('log/index', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\Log.php(20): view('log/index', Array)
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Log->index()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

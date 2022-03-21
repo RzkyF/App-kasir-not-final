@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-16 00:26:36 --> Call to undefined function userLogin()
+#0 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('menu/index', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\Menu.php(26): view('menu/index', Array)
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Menu->index()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

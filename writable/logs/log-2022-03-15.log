@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-15 20:46:46 --> unlink(assets/img/menu/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 268, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Controllers\Menu.php(268): unlink('assets/img/menu...')
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Menu->delete('5')
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

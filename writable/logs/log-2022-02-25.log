@@ -1,0 +1,602 @@
+CRITICAL - 2022-02-25 08:18:58 --> Undefined variable: title
+#0 C:\xampp\htdocs\UkomKasir\app\Views\layout\default.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('layout/default', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\Home.php(9): view('layout/default')
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 08:25:17 --> Undefined variable: title
+#0 C:\xampp\htdocs\UkomKasir\app\Views\layout\default.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('layout/default', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\Home.php(9): view('layout/default')
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 08:25:24 --> Class 'Config\Models\UserModel' not found
+#0 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-25 08:27:59 --> Class 'Config\Models\UserModel' not found
+#0 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-25 08:28:01 --> Undefined variable: title
+#0 C:\xampp\htdocs\UkomKasir\app\Views\layout\default.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('home/index', Array, true)
+#5 C:\xampp\htdocs\UkomKasir\app\Controllers\Home.php(9): view('home/index')
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-25 08:28:02 --> Undefined variable: title
+#0 C:\xampp\htdocs\UkomKasir\app\Views\layout\default.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('home/index', Array, true)
+#5 C:\xampp\htdocs\UkomKasir\app\Controllers\Home.php(9): view('home/index')
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-25 08:30:14 --> Class 'Config\Models\UserModel' not found
+#0 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-25 08:30:55 --> Call to undefined method App\Models\UserModel::getAllData
+#0 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): CodeIgniter\Model->__call('getAllData', Array)
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-25 08:32:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:32:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:32:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:32:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:32:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:32:27 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:32:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:32:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:32:33 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:33:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:33:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:33:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:34:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:34:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:34:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:34:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:34:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:34:25 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:35:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:35:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:35:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:35:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:35:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:35:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:36:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:36:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:36:11 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:37:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:37:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:37:55 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:38:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:38:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:38:04 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:38:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:38:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:38:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-25 08:39:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-25 08:39:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\UkomKasir\app\Models\UserModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(23): App\Models\UserModel->getAllData()
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:39:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\UkomKasir\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\User), true)
+#2 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\UkomKasir\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 08:40:27 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\UkomKasir\app\Views\user\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(25): view('user/index', Array)
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 08:44:19 --> Undefined property: App\Controllers\User::$outlet
+#0 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->new()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-25 08:46:09 --> Table 'krakatoa.tb_user' doesn't exist
+CRITICAL - 2022-02-25 08:46:09 --> Table 'krakatoa.tb_user' doesn't exist
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\UkomKasir\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('asdasd', 'username', Array, NULL)
+#6 C:\xampp\htdocs\UkomKasir\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asdasd', Array, Array)
+#7 C:\xampp\htdocs\UkomKasir\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(65): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->create()
+#10 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-02-25 08:46:49 --> Table 'krakatoa.tb_user' doesn't exist
+CRITICAL - 2022-02-25 08:46:49 --> Table 'krakatoa.tb_user' doesn't exist
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\UkomKasir\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('kasir', 'username', Array, NULL)
+#6 C:\xampp\htdocs\UkomKasir\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'kasir', Array, Array)
+#7 C:\xampp\htdocs\UkomKasir\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(65): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->create()
+#10 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-02-25 08:48:07 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\UkomKasir\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\UkomKasir\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\UkomKasir\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(91): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->create()
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-25 08:54:37 --> Undefined property: App\Controllers\User::$outlet
+#0 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-25 08:55:01 --> Undefined variable: outlet
+#0 C:\xampp\htdocs\UkomKasir\app\Views\user\edit.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UkomKasir\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UkomKasir\system\Common.php(1097): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(120): view('user/edit', Array)
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-25 08:59:38 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-02-25 08:59:38 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\UkomKasir\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\UkomKasir\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(158): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('2')
+#9 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-02-25 09:00:19 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-02-25 09:00:19 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\UkomKasir\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\UkomKasir\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(158): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('2')
+#9 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-02-25 09:06:48 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-25 09:06:52 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\UkomKasir\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-02-25 09:09:01 --> Table 'krakatoa.tb_user' doesn't exist
+CRITICAL - 2022-02-25 09:09:01 --> Table 'krakatoa.tb_user' doesn't exist
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\app\Controllers\Auth.php(23): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Auth->do_login()
+#6 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 09:09:18 --> Undefined property: stdClass::$role
+#0 C:\xampp\htdocs\UkomKasir\app\Controllers\Auth.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\Auth->do_login()
+#2 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-25 09:56:00 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-02-25 09:56:00 --> Cannot add or update a child row: a foreign key constraint fails (`krakatoa`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`id_level`) REFERENCES `level` (`id_level`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\UkomKasir\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\UkomKasir\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\UkomKasir\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\UkomKasir\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\UkomKasir\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\UkomKasir\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\UkomKasir\app\Controllers\User.php(158): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('2')
+#9 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}

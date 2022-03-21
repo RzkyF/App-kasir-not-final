@@ -1,0 +1,82 @@
+CRITICAL - 2022-03-11 00:09:51 --> Undefined variable: params
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 133, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('5')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:09:59 --> Trying to get property 'params' of non-object
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp2\\htdoc...', 133, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('5')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:16:31 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'C:\\xampp2\\htdoc...', 133, Array)
+#1 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(133): password_verify(false)
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('2')
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-11 00:17:12 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'C:\\xampp2\\htdoc...', 132, Array)
+#1 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(132): password_verify(false)
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('2')
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-11 00:20:08 --> Undefined property: App\Controllers\User::$db
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp2\\htdoc...', 130, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('3')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:20:22 --> Undefined variable: db
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 129, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('3')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:20:28 --> Undefined property: App\Controllers\User::$db
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp2\\htdoc...', 129, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('3')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:24:46 --> Undefined variable: username
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 137, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('7')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:25:35 --> Undefined variable: username
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 141, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('7')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-11 00:27:51 --> Undefined variable: use
+#0 C:\xampp2\htdocs\UkomKasir\app\Controllers\User.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 141, Array)
+#1 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(824): App\Controllers\User->update('7')
+#2 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp2\htdocs\UkomKasir\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\UkomKasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\UkomKasir\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
